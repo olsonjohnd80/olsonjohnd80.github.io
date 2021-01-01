@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Landing Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <header id="header">
+        <nav id="nav-bar" class="fixed-top">
+          <img
+            src="https://s3.amazonaws.com/freecodecamp/original_trombones.png"
+            alt=""
+            width="300"
+            id="header-img"
+            class="header-img"
+          />
+          <span class="link-style"
+            ><a class="nav-link" href="#features">Features</a></span
+          >
+          <span class="link-style"
+            ><a  class="nav-link"href="#how-it-works">How it Works</a></span
+          >
+          <span class="link-style"
+            ><a class="nav-link" href="#pricing">Pricing</a></span
+          >
+        </nav>
+      </header>
+      <div class="container-fluid">
+        <h4>Handcrafted, home-made masterpieces</h4>
+        <form
+          id="form"
+          action="https://www.freecodecamp.com/email-submit"
+          method="post"
+        >
+          <input
+            class="email"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your Email address"
+          />
+          <br />
+          <input type="submit" id="submit" class="btn btn-warning" value="Get Started">
+            
+            
+        </form>
+      </div>
+
+      <div class="container">
+        <section id="features">
+          <div class="grid">
+            <div class="icon">
+              <i class="fas fa-fire fa-3x"></i>
+            </div>
+            <div class="desc">
+              <h2>Premium Materials</h2>
+              <p>
+                Our trombones use the shiniest brass whish is sourced locallay.
+                This will increase the longevity of your purchase.
+              </p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon">
+              <i class="fas fa-truck fa-3x"></i>
+            </div>
+            <div class="desc">
+              <h2>Fast Shipping</h2>
+              <p>
+                We make sure you recieve your trombone as soon as we have
+                finished making it. We also provide free returns if you are not
+                satisfied.
+              </p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon">
+              <i class="fas fa-battery-full fa-3x"></i>
+            </div>
+            <div class="desc">
+              <h2>Quality Assurance</h2>
+              <p>
+                For every purchase you make, we will ensure there are no damages
+                or faults and we will check and test the pitch of your
+                instrument.
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <div class="container">
+      <section id="how-it-works">
+        <iframe id="video"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/y8Yv4pnO7qc"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
+    </div>
+
+    
+      <section id="pricing">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-header">TENOR TROMBONE</div>
+              <div class="card-body">
+                <h5 class="card-title">$600</h5>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Lorem ipsum.</li>
+                  <li>Lorem ipsum.</li>
+                  <li>Lorem ipsum dolor.</li>
+                  <li>Lorem ipsum.</li>
+                </ul>
+                <a href="#" class="btn btn-warning btn-lg">Select</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-header">BASS TROMBONE</div>
+              <div class="card-body">
+                <h5 class="card-title">$900</h5>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Lorem ipsum.</li>
+                  <li>Lorem ipsum.</li>
+                  <li>Lorem ipsum dolor.</li>
+                  <li>Lorem ipsum.</li>
+                </ul>
+                <a href="#" class="btn btn-warning btn-lg">Select</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-header">VALVE TROMBONE</div>
+              <div class="card-body">
+                <h5 class="card-title">$1200</h5>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>Plays similar to a Trumpet</li>
+                  <li>Great for Jazz Bands</li>
+                  <li>Lorem ipsum dolor.</li>
+                  <li>Lorem ipsum.</li>
+                </ul>
+                <a href="#" class="btn btn-warning btn-lg">Select</a>
+              </div>
+            </div>
+          </div>
+        
+      </section>
+
+      <footer>
+          
+              <ul>
+                  <li><a href="#" >Privacy</a></li>
+                  <li><a href="#" >Terms</a></li>
+                  <li><a href="#" >Contact</a></li>
+              </ul>
+              <span class="copyright">Copyright2020, Original Trombones</span>
+         
+      </footer>
+    </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script
+      src="https://kit.fontawesome.com/513633b1e5.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
